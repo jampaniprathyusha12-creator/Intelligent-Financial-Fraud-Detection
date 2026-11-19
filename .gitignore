@@ -1,0 +1,28 @@
+
+# Python environment
+venv/
+.env
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+
+# Dataset files
+notebooks/data/creditcard.csv
+
+# Local database
+database/*.db
+
+# Exclude large training dataset
+notebooks/data/processed/X_train.csv
